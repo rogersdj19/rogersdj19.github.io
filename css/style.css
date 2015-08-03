@@ -15,6 +15,9 @@
 	html {
 		height: 100%;
 	}
+	/*div {
+		color: purple;
+		}*/
 
 	body {
 		background: #fff;
@@ -43,11 +46,13 @@
 		line-height: 1.75em;
 		color: #39454b;
 		letter-spacing: 0.5px;
+		
+	
 	}
 
 	h1,h2,h3,h4,h5,h6 {
 		font-weight: 900;
-		color: inherit;
+		color: black;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -835,6 +840,7 @@
 		top: 0;
 		height: 3em;
 		line-height: 3em;
+		color:navy
 	}
 
 		#nav ul {
@@ -885,7 +891,7 @@
 /*********************************************************************************/
 
 	#two {
-		background: url('images/overlay.png'), url('../images/gears.jpg');
+		background: url('images/overlay.png'), url('../images/cleaned up daytona.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
